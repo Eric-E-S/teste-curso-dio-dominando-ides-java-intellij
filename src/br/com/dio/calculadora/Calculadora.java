@@ -13,6 +13,8 @@ public class Calculadora {
         System.out.println("Digite o segundo valor");
         b = scan.nextInt();
 
+        scan.close();
+
         int somar = somar(a, b);
         int subtrair = subtrair(a, b);
         int multiplicar = multiplicar(a, b);
